@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+}
+
+h2 {
+    border-bottom: 1px solid #d82d83;
+}
+
+ol.answers {
+    list-style: upper-alpha;
+}
+
+ol.answers li:hover {
+    border: 0.1em solid #dd39a6;
+    background-color: rgb(248, 198, 255);
+}
+div#section-correct-answer {
+    display: none;
+}
+
+span#correct-answer {
+    font-weight: bold;
+    color: #d82d83;
+    padding: 0.9em;
+    cursor: pointer;
+}
+
+ul li ,ol li {
+    padding: 1em;
+    list-style-position: inside;
+
+}
+
+
+#main {
+    padding: 0 1.5em;
+
+}
+
+div.section {
+    margin-top: 2em;
+}
